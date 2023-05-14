@@ -1,0 +1,204 @@
+<div *ngIf="isDesktopView">
+  <div class="result">
+    <div class="gap-b">
+      <span>Your Result</span>
+    </div>
+    <div class="circle gap-b">
+      <div class="value1">
+        <span>76</span>
+      </div>
+      <div class="value2">
+        <span>of 100</span>
+      </div>
+    </div>
+    <div class="testScore gap-title">
+      <span>Great</span>
+    </div>
+    <div class="result-body">
+      <span>
+        You have scored higher than 65% of the people who have taken these
+        tests.
+      </span>
+    </div>
+  </div>
+  <div class="summary">
+    <div class="gap-b">
+      <span>Summary</span>
+    </div>
+    <div class="details">
+      <div class="reaction">
+        <div>
+          <fa-icon [icon]="faBolt"></fa-icon>
+        </div>
+        <div>
+          <span>Reaction</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">80</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+      <div class="memory">
+        <div>
+          <fa-icon [icon]="faBrain"></fa-icon>
+        </div>
+        <div>
+          <span>Memory</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">92</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+      <div class="verbal">
+        <div>
+          <fa-icon [icon]="faComment"></fa-icon>
+        </div>
+        <div>
+          <span>Verbal</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">61</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+      <div class="visual">
+        <div>
+          <fa-icon [icon]="faEye"></fa-icon>
+        </div>
+        <div>
+          <span>Visual</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">72</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+    </div>
+    <div>
+      <button class="button-style">Continue</button>
+    </div>
+  </div>
+</div>
+<div *ngIf="!isDesktopView">
+  <div class="result-mob">
+    <div class="gap-b">
+      <span>Your Result</span>
+    </div>
+    <div class="circle gap-b">
+      <div class="value1">
+        <span>76</span>
+      </div>
+      <div class="value2">
+        <span>of 100</span>
+      </div>
+    </div>
+    <div class="testScore gap-title">
+      <span>Great</span>
+    </div>
+    <div class="result-body">
+      <span>
+        You have scored higher than 65% of the people who have taken these
+        tests.
+      </span>
+    </div>
+  </div>
+  <div class="summary-mob">
+    <div class="gap-b">
+      <span>Summary</span>
+    </div>
+    <div class="details-mob">
+      <div class="reaction">
+        <div>
+          <fa-icon [icon]="faBolt"></fa-icon>
+        </div>
+        <div>
+          <span>Reaction</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">80</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+      <div class="memory">
+        <div>
+          <fa-icon [icon]="faBrain"></fa-icon>
+        </div>
+        <div>
+          <span>Memory</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">92</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+      <div class="verbal">
+        <div>
+          <fa-icon [icon]="faComment"></fa-icon>
+        </div>
+        <div>
+          <span>Verbal</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">61</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+      <div class="visual">
+        <div>
+          <fa-icon [icon]="faEye"></fa-icon>
+        </div>
+        <div>
+          <span>Visual</span>
+        </div>
+        <div>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%)">72</span>
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >/</span
+          >
+          <span class="summary-gap" style="color: hsl(224, 30%, 27%, 0.7)"
+            >100</span
+          >
+        </div>
+      </div>
+    </div>
+    <div>
+      <button class="button-style-mob">Continue</button>
+    </div>
+  </div>
+</div>
